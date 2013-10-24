@@ -1,0 +1,9 @@
+{
+    "framework": "jasmine",
+    "src_files": [
+        "public/app.js",
+        "specs/*.js"
+    ],
+  "test_page": "jasmine/SpecRunner.html",
+  "src_files_ignore": "client/*.js"
+}

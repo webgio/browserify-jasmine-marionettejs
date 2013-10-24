@@ -1,0 +1,24 @@
+{
+  "name": "colonna",
+  "version": "0.0.0",
+  "scripts": {
+    "preinstall": "npm install -g grunt-cli"
+  },
+  "description": "backbone + browserify + testem with custom jasmine runner",
+  "main": "server.js",
+  "author": "Giorgio Bozio",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-browserify": "~1.2.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-nodemon": "0.0.9",
+    "grunt-concurrent": "~0.3.0",
+    "handlebars-runtime": "~1.0.12",
+    "hbsfy": "~0.1.5"
+  },
+  "dependencies": {
+    "express": "~3.x"
+  }
+}
